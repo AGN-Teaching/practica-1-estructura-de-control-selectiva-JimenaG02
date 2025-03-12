@@ -7,16 +7,20 @@ Este programa calcula el salario neto de los trabajadores en función de las hor
 
 
 El programa realiza los siguientes calculos segun las horas de trabajo si estan dentro de ciertos rangos
+
 horas <= 160 ---Salario por hora
+
 horas >160 && horas<200 --- Salario por hora y hrs > se pagan a 1.5
+
 horas >200 --- Anterior y hrs > a 200 se pagan al doble
 
 También calcula el ISR usando la tabla de tarifas progresivas del SAT(2025):
   1. Se identifica el rango del ingreso bruto
   2. Se aplica el porcentaje correspondiente al nivel salarial.
-  3. Se resta el límite inferior del rango
+  3. Se resta el límite inferior del rango   
   4.Se suma la cuota fija del SAT
   La formula del ISR queda de la siguiente forma:
+
     isr = cuota + (sueldo_bruto - limite_inferior) * (porcentaje_excedente / 100)
 
 Para la seguridad social, se descuenta el 2.5% del sueldo bruto.
