@@ -1,5 +1,5 @@
 """
-Programa sueldos.py
+Programa practica1.py
 
 Este programa calcula el salario de trabajadores, se calcula segun las horas de trabajo si estan dentro de ciertos rangos
 horas <= 160 ---Salario por hora
